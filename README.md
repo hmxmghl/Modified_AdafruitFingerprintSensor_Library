@@ -20,9 +20,10 @@ https://forums.adafruit.com/viewtopic.php?f=22&t=33229&hilit=template&start=60&s
 In this library, template for matching is hard coded so you will still need to modify it to download template from your specific
 database.
 
-IMPORTANT NOTE:
+**IMPORTANT NOTE:**
 
 After following Don's instructions, you need to change following lines in Adafruit library examples in order to make them work:
 
-Serial.begin(9600)   ==>  Serial.begin(57600)
-finger.begin(57600)  ==>  finger.begin(9600)
+*Serial.begin(9600)   ==>  Serial.begin(57600)*
+
+*finger.begin(57600)  ==>  finger.begin(9600)*
